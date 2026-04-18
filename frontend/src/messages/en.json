@@ -1,0 +1,189 @@
+{
+  "common": {
+    "appName": "PhishGuard",
+    "tagline": "Secure access portal",
+    "loading": "Loading...",
+    "authenticating": "Authenticating...",
+    "signOut": "Sign Out",
+    "save": "Save",
+    "cancel": "Cancel",
+    "submit": "Submit",
+    "back": "Back",
+    "close": "Close",
+    "error": "Error",
+    "success": "Success",
+    "admin": "Admin",
+    "protected": "Protected by JWT · AES-256 · bcrypt"
+  },
+  "nav": {
+    "dashboard": "Dashboard",
+    "urlScanner": "URL Scanner",
+    "messageScanner": "Message Scanner",
+    "fileScanner": "File Scanner",
+    "networkScanner": "Network Scanner",
+    "scanHistory": "Scan History",
+    "about": "About",
+    "termsOfService": "Terms of Service",
+    "userManagement": "User Management",
+    "auditLogs": "Audit Logs",
+    "languageSwitcher": "Language",
+    "english": "English",
+    "hindi": "हिंदी"
+  },
+  "auth": {
+    "login": {
+      "title": "Sign in",
+      "demoTitle": "Demo Accounts — Click to sign in instantly",
+      "email": "Email Address",
+      "emailPlaceholder": "you@company.com",
+      "password": "Password",
+      "passwordPlaceholder": "••••••••",
+      "submit": "→  Access System",
+      "submitting": "Authenticating...",
+      "noAccount": "New user?",
+      "createAccount": "Create account",
+      "accessGranted": "Access granted",
+      "errors": {
+        "fillFields": "Please enter your email and password",
+        "authFailed": "Authentication failed",
+        "demoFailed": "Demo login failed — ensure the server is running"
+      }
+    },
+    "register": {
+      "title": "Create Account",
+      "subtitle": "Join the PhishGuard platform",
+      "username": "Username",
+      "usernamePlaceholder": "yourhandle",
+      "email": "Email Address",
+      "emailPlaceholder": "you@company.com",
+      "password": "Password",
+      "passwordPlaceholder": "Min 8 chars, 1 upper, 1 number",
+      "termsLabel": "I agree to the",
+      "termsLink": "Terms of Service",
+      "submit": "→  Create Account",
+      "submitting": "Creating account...",
+      "hasAccount": "Already have an account?",
+      "signIn": "Sign in",
+      "accountCreated": "Account created. Please sign in.",
+      "passwordRequirements": {
+        "length": "At least 8 characters",
+        "uppercase": "One uppercase letter",
+        "digit": "One number"
+      },
+      "errors": {
+        "allRequired": "All fields are required",
+        "passwordRequirements": "Password does not meet requirements",
+        "acceptTerms": "You must accept the Terms of Service to register",
+        "registrationFailed": "Registration failed"
+      }
+    }
+  },
+  "dashboard": {
+    "welcome": "Welcome back",
+    "systemStatus": "System Status",
+    "totalScans": "Total Scans",
+    "threatsDetected": "Threats Detected",
+    "safeItems": "Safe Items",
+    "scanActivity": "Scan Activity",
+    "recentThreats": "Recent Threats",
+    "threatDistribution": "Threat Distribution",
+    "riskLevel": "Risk Level",
+    "quickScan": "Quick Scan",
+    "viewAll": "View All",
+    "noData": "No data available",
+    "last7Days": "Last 7 days",
+    "online": "ONLINE",
+    "allSystemsNominal": "All Systems Nominal",
+    "scanNow": "Scan Now →"
+  },
+  "scan": {
+    "url": {
+      "title": "URL Scanner",
+      "subtitle": "Analyze URLs for phishing and malicious content",
+      "label": "Enter URL to Scan",
+      "placeholder": "https://example.com",
+      "submit": "Scan URL",
+      "scanning": "Scanning...",
+      "result": "Scan Result",
+      "confidence": "Confidence",
+      "detectionMode": "Mode",
+      "reasons": "Detection Reasons",
+      "scanId": "Scan ID",
+      "timestamp": "Timestamp"
+    },
+    "message": {
+      "title": "Message Scanner",
+      "subtitle": "Detect SMS fraud, phishing messages, and social engineering attacks",
+      "label": "Message Content",
+      "placeholder": "Paste the suspicious message here...",
+      "submit": "Analyze Message",
+      "analyzing": "Analyzing...",
+      "samples": "Sample Messages",
+      "result": "Analysis Result",
+      "confidence": "Confidence",
+      "ruleScore": "Rule Score",
+      "language": "Language",
+      "apiUsed": "API Used",
+      "reasons": "Detection Reasons"
+    },
+    "file": {
+      "title": "File Scanner",
+      "subtitle": "Upload files to scan for embedded threats and malicious content",
+      "dragDrop": "Drag & drop a file here, or click to select",
+      "dragActive": "Drop file here...",
+      "maxSize": "Max 10MB",
+      "supported": "Supported: .txt .html .csv .json .eml .pdf .docx .xlsx .zip",
+      "submit": "Upload & Scan",
+      "uploading": "Uploading...",
+      "uploadSuccess": "File uploaded. Background scan started.",
+      "result": "Scan Result",
+      "fileName": "File",
+      "fileSize": "Size",
+      "status": "Status"
+    },
+    "common": {
+      "verdict": "Verdict",
+      "safe": "SAFE",
+      "phishing": "PHISHING",
+      "fraud": "FRAUD",
+      "suspicious": "SUSPICIOUS",
+      "clear": "Clear",
+      "newScan": "New Scan"
+    }
+  },
+  "history": {
+    "title": "Scan History",
+    "subtitle": "View all your previous scans",
+    "noHistory": "No scan history found",
+    "type": "Type",
+    "verdict": "Verdict",
+    "confidence": "Confidence",
+    "date": "Date",
+    "viewDetails": "Details"
+  },
+  "about": {
+    "title": "About PhishGuard",
+    "subtitle": "Enterprise-grade cybersecurity detection platform",
+    "mission": "Our Mission",
+    "missionText": "PhishGuard is built to protect individuals and organizations from evolving cyber threats using advanced AI and machine learning.",
+    "features": "Features",
+    "feature1Title": "AI-Powered Detection",
+    "feature1Desc": "Advanced machine learning models trained on millions of phishing samples",
+    "feature2Title": "Real-time Analysis",
+    "feature2Desc": "Instant scanning with sub-second response times for URLs, messages, and files",
+    "feature3Title": "Enterprise Security",
+    "feature3Desc": "Bank-grade encryption and security protocols protecting your data",
+    "feature4Title": "Threat Intelligence",
+    "feature4Desc": "Continuously updated threat feeds from global cybersecurity networks"
+  },
+  "terms": {
+    "title": "Terms of Service",
+    "subtitle": "Last updated: January 2025",
+    "acceptance": "Acceptance of Terms",
+    "description": "Description of Service",
+    "responsibilities": "User Responsibilities",
+    "prohibited": "Prohibited Uses",
+    "privacy": "Privacy & Data",
+    "liability": "Limitation of Liability"
+  }
+}

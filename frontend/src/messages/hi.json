@@ -1,0 +1,189 @@
+{
+  "common": {
+    "appName": "फिशगार्ड",
+    "tagline": "सुरक्षित पहुँच पोर्टल",
+    "loading": "लोड हो रहा है...",
+    "authenticating": "प्रमाणीकरण हो रहा है...",
+    "signOut": "साइन आउट",
+    "save": "सहेजें",
+    "cancel": "रद्द करें",
+    "submit": "जमा करें",
+    "back": "वापस",
+    "close": "बंद करें",
+    "error": "त्रुटि",
+    "success": "सफलता",
+    "admin": "व्यवस्थापक",
+    "protected": "JWT · AES-256 · bcrypt द्वारा सुरक्षित"
+  },
+  "nav": {
+    "dashboard": "डैशबोर्ड",
+    "urlScanner": "URL स्कैनर",
+    "messageScanner": "संदेश स्कैनर",
+    "fileScanner": "फ़ाइल स्कैनर",
+    "networkScanner": "नेटवर्क स्कैनर",
+    "scanHistory": "स्कैन इतिहास",
+    "about": "परिचय",
+    "termsOfService": "सेवा की शर्तें",
+    "userManagement": "उपयोगकर्ता प्रबंधन",
+    "auditLogs": "ऑडिट लॉग",
+    "languageSwitcher": "भाषा",
+    "english": "English",
+    "hindi": "हिंदी"
+  },
+  "auth": {
+    "login": {
+      "title": "साइन इन करें",
+      "demoTitle": "डेमो खाते — तुरंत साइन इन करने के लिए क्लिक करें",
+      "email": "ईमेल पता",
+      "emailPlaceholder": "you@company.com",
+      "password": "पासवर्ड",
+      "passwordPlaceholder": "••••••••",
+      "submit": "→  सिस्टम में प्रवेश करें",
+      "submitting": "प्रमाणीकरण हो रहा है...",
+      "noAccount": "नए उपयोगकर्ता?",
+      "createAccount": "खाता बनाएं",
+      "accessGranted": "प्रवेश मिल गया",
+      "errors": {
+        "fillFields": "कृपया अपना ईमेल और पासवर्ड दर्ज करें",
+        "authFailed": "प्रमाणीकरण विफल",
+        "demoFailed": "डेमो लॉगिन विफल — सुनिश्चित करें कि सर्वर चल रहा है"
+      }
+    },
+    "register": {
+      "title": "खाता बनाएं",
+      "subtitle": "फिशगार्ड प्लेटफ़ॉर्म से जुड़ें",
+      "username": "उपयोगकर्ता नाम",
+      "usernamePlaceholder": "आपका नाम",
+      "email": "ईमेल पता",
+      "emailPlaceholder": "you@company.com",
+      "password": "पासवर्ड",
+      "passwordPlaceholder": "कम से कम 8 अक्षर, 1 बड़ा, 1 अंक",
+      "termsLabel": "मैं सहमत हूँ",
+      "termsLink": "सेवा की शर्तों",
+      "submit": "→  खाता बनाएं",
+      "submitting": "खाता बन रहा है...",
+      "hasAccount": "पहले से खाता है?",
+      "signIn": "साइन इन करें",
+      "accountCreated": "खाता बन गया। कृपया साइन इन करें।",
+      "passwordRequirements": {
+        "length": "कम से कम 8 अक्षर",
+        "uppercase": "एक बड़ा अक्षर",
+        "digit": "एक अंक"
+      },
+      "errors": {
+        "allRequired": "सभी फ़ील्ड आवश्यक हैं",
+        "passwordRequirements": "पासवर्ड आवश्यकताएं पूरी नहीं होती",
+        "acceptTerms": "पंजीकरण के लिए सेवा की शर्तें स्वीकार करना ज़रूरी है",
+        "registrationFailed": "पंजीकरण विफल"
+      }
+    }
+  },
+  "dashboard": {
+    "welcome": "वापस स्वागत है",
+    "systemStatus": "सिस्टम स्थिति",
+    "totalScans": "कुल स्कैन",
+    "threatsDetected": "खतरे मिले",
+    "safeItems": "सुरक्षित आइटम",
+    "scanActivity": "स्कैन गतिविधि",
+    "recentThreats": "हालिया खतरे",
+    "threatDistribution": "खतरे का वितरण",
+    "riskLevel": "जोखिम स्तर",
+    "quickScan": "त्वरित स्कैन",
+    "viewAll": "सभी देखें",
+    "noData": "कोई डेटा उपलब्ध नहीं",
+    "last7Days": "पिछले 7 दिन",
+    "online": "ऑनलाइन",
+    "allSystemsNominal": "सभी सिस्टम सामान्य",
+    "scanNow": "अभी स्कैन करें →"
+  },
+  "scan": {
+    "url": {
+      "title": "URL स्कैनर",
+      "subtitle": "फ़िशिंग और दुर्भावनापूर्ण सामग्री के लिए URL विश्लेषण करें",
+      "label": "स्कैन करने के लिए URL दर्ज करें",
+      "placeholder": "https://example.com",
+      "submit": "URL स्कैन करें",
+      "scanning": "स्कैन हो रहा है...",
+      "result": "स्कैन परिणाम",
+      "confidence": "विश्वास",
+      "detectionMode": "मोड",
+      "reasons": "पहचान के कारण",
+      "scanId": "स्कैन ID",
+      "timestamp": "समय"
+    },
+    "message": {
+      "title": "संदेश स्कैनर",
+      "subtitle": "SMS धोखाधड़ी, फ़िशिंग संदेश और सोशल इंजीनियरिंग हमलों का पता लगाएं",
+      "label": "संदेश सामग्री",
+      "placeholder": "संदिग्ध संदेश यहाँ पेस्ट करें...",
+      "submit": "संदेश विश्लेषण करें",
+      "analyzing": "विश्लेषण हो रहा है...",
+      "samples": "नमूना संदेश",
+      "result": "विश्लेषण परिणाम",
+      "confidence": "विश्वास",
+      "ruleScore": "नियम स्कोर",
+      "language": "भाषा",
+      "apiUsed": "API उपयोग",
+      "reasons": "पहचान के कारण"
+    },
+    "file": {
+      "title": "फ़ाइल स्कैनर",
+      "subtitle": "एम्बेडेड खतरों और दुर्भावनापूर्ण सामग्री के लिए फ़ाइलें अपलोड करें",
+      "dragDrop": "फ़ाइल यहाँ खींचें और छोड़ें, या चुनने के लिए क्लिक करें",
+      "dragActive": "फ़ाइल यहाँ छोड़ें...",
+      "maxSize": "अधिकतम 10MB",
+      "supported": "समर्थित: .txt .html .csv .json .eml .pdf .docx .xlsx .zip",
+      "submit": "अपलोड और स्कैन करें",
+      "uploading": "अपलोड हो रहा है...",
+      "uploadSuccess": "फ़ाइल अपलोड हुई। बैकग्राउंड स्कैन शुरू हुआ।",
+      "result": "स्कैन परिणाम",
+      "fileName": "फ़ाइल",
+      "fileSize": "आकार",
+      "status": "स्थिति"
+    },
+    "common": {
+      "verdict": "निर्णय",
+      "safe": "सुरक्षित",
+      "phishing": "फ़िशिंग",
+      "fraud": "धोखाधड़ी",
+      "suspicious": "संदिग्ध",
+      "clear": "साफ़ करें",
+      "newScan": "नया स्कैन"
+    }
+  },
+  "history": {
+    "title": "स्कैन इतिहास",
+    "subtitle": "अपने सभी पिछले स्कैन देखें",
+    "noHistory": "कोई स्कैन इतिहास नहीं मिला",
+    "type": "प्रकार",
+    "verdict": "निर्णय",
+    "confidence": "विश्वास",
+    "date": "तारीख",
+    "viewDetails": "विवरण"
+  },
+  "about": {
+    "title": "फिशगार्ड के बारे में",
+    "subtitle": "एंटरप्राइज़-ग्रेड साइबर सुरक्षा पहचान प्लेटफ़ॉर्म",
+    "mission": "हमारा उद्देश्य",
+    "missionText": "फिशगार्ड उन्नत AI और मशीन लर्निंग का उपयोग करके व्यक्तियों और संगठनों को विकसित साइबर खतरों से बचाने के लिए बनाया गया है।",
+    "features": "विशेषताएं",
+    "feature1Title": "AI-संचालित पहचान",
+    "feature1Desc": "लाखों फ़िशिंग नमूनों पर प्रशिक्षित उन्नत मशीन लर्निंग मॉडल",
+    "feature2Title": "रीयल-टाइम विश्लेषण",
+    "feature2Desc": "URL, संदेश और फ़ाइलों के लिए तत्काल स्कैनिंग",
+    "feature3Title": "एंटरप्राइज़ सुरक्षा",
+    "feature3Desc": "आपके डेटा की सुरक्षा के लिए बैंक-ग्रेड एन्क्रिप्शन",
+    "feature4Title": "खतरे की खुफिया जानकारी",
+    "feature4Desc": "वैश्विक साइबर सुरक्षा नेटवर्क से निरंतर अपडेट खतरे की फ़ीड"
+  },
+  "terms": {
+    "title": "सेवा की शर्तें",
+    "subtitle": "अंतिम अपडेट: जनवरी 2025",
+    "acceptance": "शर्तों की स्वीकृति",
+    "description": "सेवा का विवरण",
+    "responsibilities": "उपयोगकर्ता जिम्मेदारियां",
+    "prohibited": "निषिद्ध उपयोग",
+    "privacy": "गोपनीयता और डेटा",
+    "liability": "दायित्व की सीमा"
+  }
+}

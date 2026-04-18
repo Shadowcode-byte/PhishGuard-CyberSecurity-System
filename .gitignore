@@ -1,0 +1,39 @@
+# Python
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+
+# Node
+node_modules/
+.next/
+npm-debug.log*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Build
+dist/
+build/
+
+# IDE
+.vscode/
+.idea/
+
+# Environment variables
+.env.local
+.env.development
+.env.production
+backend/app/services/data/*.csv
+backend/app/services/data/*.txt
+app/services/data/tranco*.csv
+backend/data/extracted/
+backend/data/raw/
+backend/data/tranco*.csv
+backend/uploads/
